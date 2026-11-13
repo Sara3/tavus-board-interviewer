@@ -1,0 +1,31 @@
+{
+  "name": "tavus-board-interviewer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "System design mock interviewer on Tavus CVI with a live Excalidraw board the PAL reads as structured text.",
+  "scripts": {
+    "dev": "node server.mjs --dev",
+    "build": "vite build",
+    "start": "node server.mjs",
+    "setup": "node scripts/setup-pal.mjs",
+    "seed-demo": "node scripts/seed-demo.mjs",
+    "test": "vitest run"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@daily-co/daily-js": "^0.95.0",
+    "@excalidraw/excalidraw": "^0.18.1",
+    "express": "^5.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "^5.8.0",
+    "vite": "^7.1.0",
+    "vitest": "^3.2.0"
+  }
+}
