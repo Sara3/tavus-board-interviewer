@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "System design mock interviewer on Tavus CVI with a live Excalidraw board the PAL reads as structured text.",
+  "description": "AI first-round system design screen on Tavus CVI with a live Excalidraw board the PAL reads as structured text.",
   "scripts": {
     "dev": "node server.mjs --dev",
     "build": "vite build",
